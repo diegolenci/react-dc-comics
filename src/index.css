@@ -11,12 +11,32 @@ header {
     justify-content: space-around;
     font-family: sans-serif;
     padding: 10px;
+    
 }
 
-ul {
+header nav ul {
     display: flex;
     gap: 10px;
     list-style-type: none;
     font-weight: bold;
     color: rgb(88, 96, 103);
+}
+
+/*components: main*/
+main{
+    font-family: sans-serif;
+    color: white;
+}
+main section {
+    background-color: rgb(25, 24, 24);
+}
+
+main div{
+    background-color: rgb(33, 102, 221);
+}
+
+main div ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
 }
