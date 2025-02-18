@@ -7,10 +7,10 @@ const Main = () => {
             <div>
                 <ul>
                     <li><a href=""></a>DIGITAL COMICS</li>
-                    <li><a href=""></a>COMICS</li>
-                    <li><a href=""></a>MOVIES</li>
-                    <li><a href=""></a>TV</li>
-                    <li><a href=""></a>GAMES</li>
+                    <li><a href=""></a>DC MERCHANDISE</li>
+                    <li><a href=""></a>SUBSCRIPTION</li>
+                    <li><a href=""></a>COMIC SHOP LOCATOR</li>
+                    <li><a href=""></a>DC POWER VISA</li>
                 </ul>
             </div>
         </main>

@@ -11,6 +11,7 @@ header {
     justify-content: space-around;
     font-family: sans-serif;
     padding: 10px;
+    height: 10vh;
     
 }
 
@@ -26,17 +27,51 @@ header nav ul {
 main{
     font-family: sans-serif;
     color: white;
+    height: 30vh;
 }
 main section {
     background-color: rgb(25, 24, 24);
+    height: 50%;
+    align-content: center;
 }
 
 main div{
     background-color: rgb(33, 102, 221);
+    height: 50%;
+    align-content: center;
+    justify-items: center;
 }
 
 main div ul{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     list-style-type: none;
 }
+
+/*components: footer*/
+
+footer{
+    height: 60vh;
+}
+
+footer section{
+    background-image: url(/src/assets/img/footer-bg.jpg);
+    height: 75%;
+}
+
+footer div{
+    height: 25%;
+    background-color: rgb(53, 51, 51);
+    align-content: center;
+}
+
+footer div a{
+    color: white;
+    border: 1px solid rgb(33, 102, 221);
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+
+
