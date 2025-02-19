@@ -49,7 +49,17 @@ const Footer = () => {
             
             
             <nav>
-                <a href="">SIGN-UP NOW!</a>
+                <div>
+                    <a href="#">SIGN-UP NOW</a>
+                </div>
+                <div className="icons">
+                    <h5>FOLLOW US</h5>
+                    <img src="src/assets/img/footer-facebook.png" alt="" />
+                    <img src="src/assets/img/footer-twitter.png" alt="" />
+                    <img src="src/assets/img/footer-periscope.png" alt="" />
+                    <img src="src/assets/img/footer-pinterest.png" alt="" />
+                    <img src="src/assets/img/footer-youtube.png" alt="" />
+                </div>
             </nav>
         </footer>
     )
