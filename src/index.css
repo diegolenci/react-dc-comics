@@ -35,17 +35,20 @@ main section {
     align-content: center;
 }
 
-main div{
+main nav{
     background-color: rgb(33, 102, 221);
     height: 50%;
+    display: flex;
+    justify-content: center;
     align-content: center;
     justify-items: center;
+    gap: 30px;
 }
 
-main div ul{
+main nav div{
     display: flex;
-    gap: 15px;
-    list-style-type: none;
+    align-items: center;
+    gap: 8px;
 }
 
 /*components: footer*/
@@ -57,15 +60,35 @@ footer{
 footer section{
     background-image: url(/src/assets/img/footer-bg.jpg);
     height: 75%;
+    display: flex;
+    gap: 10px;
 }
 
-footer div{
+.title{
+    color: white;
+}
+
+footer section div{
+    padding: 20px;
+}
+
+footer section div ul{
+    list-style-type: none;
+    display: block;
+}
+
+footer section div ul li a{
+    color: #959595;
+}
+
+
+footer nav{
     height: 25%;
     background-color: rgb(53, 51, 51);
     align-content: center;
 }
 
-footer div a{
+footer nav a{
     color: white;
     border: 1px solid rgb(33, 102, 221);
     padding: 5px;
