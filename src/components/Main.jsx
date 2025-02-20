@@ -1,9 +1,9 @@
+import Comics from "./Comics"
+
 const Main = () => {
     return (
         <main>
-            <section>
-                <h2>Content goes here</h2>
-            </section>
+            <Comics />
             <nav>
                 <div>
                     <img src="src/assets/img/buy-comics-digital-comics.png" alt="" width="45px" height="50px"/>

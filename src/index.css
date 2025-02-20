@@ -27,17 +27,25 @@ header nav ul {
 main{
     font-family: sans-serif;
     color: white;
-    height: 30vh;
+    
 }
 main section {
     background-color: rgb(25, 24, 24);
-    height: 50%;
-    align-content: center;
+}
+
+.fumetti{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    flex-basis: calc(100% / 6);
 }
 
 main nav{
     background-color: rgb(33, 102, 221);
-    height: 50%;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-content: center;
